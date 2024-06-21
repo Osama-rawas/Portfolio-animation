@@ -1,0 +1,63 @@
+.project {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-bottom: 80px;
+}
+.about-project {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-start;
+  width: 350px;
+  margin-top: 20px;
+}
+.about-project h6 {
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 39px;
+}
+.about-project p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 39px;
+  color: #666666;
+}
+.teq-project {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+.teq-project p {
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 39px;
+
+  color: #000;
+}
+.coding {
+  display: flex;
+  justify-content: space-around;
+}
+.review {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.review p {
+  color: #666666;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 39px;
+  text-align: center;
+}
+.more-btn {
+  width: 184px;
+  height: 49px;
+  border-radius: 34px !important;
+  border: 2px solid #1572b6 !important;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
